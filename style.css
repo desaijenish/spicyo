@@ -1,0 +1,585 @@
+body{
+    margin: 0px;
+}
+
+.info{
+    display: flex;
+    position: fixed;
+    padding: 12px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #212020;
+}
+
+.info .logo{
+    width: 20%;
+}
+
+.company-info li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.company-info ul li a{
+    color: #eaeaea;
+}
+
+.company-info {
+    width: 80%;
+    padding: 6px 18px 0px;
+    color: white;
+}
+
+.company-info ul{
+    float: right;
+}
+
+.company-info .active{
+    background: #e3d105;
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    border-color:#e3d105;
+}
+
+.company-info .contact .c-info{
+    text-decoration: none;
+}
+
+.company-info .icon{
+    vertical-align: middle;
+}
+
+.company-info .btn_login{
+    display: inline-block;
+    list-style: none;
+}
+
+.company-info .btn_login .btnlgn{ 
+    text-decoration: none; 
+    color: black;
+    border-color: #e3d105;
+    padding: 10px;
+    width: 40px;
+    background: #e3d105;
+}
+
+.company-info .btn_login .btnreg{
+    text-decoration: none; 
+    color: #fff;
+    padding: 9px;
+    width: 40px;
+    border: 1px solid #fff;
+}
+
+.company-info .btn_login .btnreg:hover{
+    background: #e3d105;
+    color: black;
+}
+
+.body{
+    background: #212020;
+    margin-top: 87px;
+    padding: 95px 100px 45px;
+}
+
+.body .container{
+    display: flex;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.body .container .descr h3{
+    color: white;
+    font-size: 40px;
+    line-height: 55px;
+    font-family: sans-serif;
+}
+
+.body .container .descr p{
+    font-size: 16px;
+    margin-top: -25px;
+    color: #999;
+    margin-bottom: 30px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.body .container .descr .order{
+    text-decoration: none; 
+    color: #fff;
+    padding: 15px 25px;
+    width: 40px;
+    border: 1px solid #fff;
+}
+
+.descr{
+    padding: 50px;
+}
+
+.body .burger img{
+    height: 600px;
+}
+
+.recipes .contain .row .ourheading{
+    background:#212020;
+    color: white;
+    font-size: 25px;    
+}
+
+.recipes{
+    background: #212020;
+    border-top: solid rgba(255,255,255,.1) 1px;
+    box-shadow:inset 0 10px 30px -16px #000;
+    padding-bottom: 40px;
+}
+
+.recipes .contain .row .list{
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.recipes .contain .row{
+    margin: 0% 5%;
+    margin-top: 50px;
+}
+
+.theme_color{
+    color:#f8c90d;
+}
+
+.list .item {
+    margin-right: 40px;
+}
+
+.list .item h4{
+    display: inline-block;
+    letter-spacing: 2px;
+    line-height: 10px;    
+    margin: 0;
+}
+
+.row .back{
+    display: flex;
+}
+
+.raw .back {
+    float:right;
+}
+
+.back > .up {
+    margin-right: auto;
+}
+
+.bodypart{
+    width: 100%;    
+    background-image: url("../images/bg.jpg");
+}
+
+
+.details .topdetails{    
+    padding-top: 50px;
+}
+
+.topdetails .title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.topdetails .title h2{
+    font-size: 45px;
+    letter-spacing: 1px;
+    padding: 0px;
+}
+
+.topdetails .title span{
+    padding: 0px;
+    letter-spacing: 1px;
+}
+
+.bodyinfo{
+    width: 100%;
+    display: flex;
+    top: 350px;
+}
+
+.bodyinfo .about{
+    display: flex;
+}
+
+.bodyinfo .about_info{
+    width: 100%;
+    background: #191918;
+    margin-left: 80px;
+    margin-bottom: 65px;
+}
+
+.bodyinfo .about .about_info .bestfood{
+    padding: 30px;
+    display: inline-block;
+}
+
+.bodyinfo .about .about_info .bestfood h3{
+    font-size: 30px;
+    color: white;
+}
+
+.bodyinfo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.bodyinfo a:hover{
+    color: #d8b00f;
+}
+
+.bodyinfo .about .about_info .bestfood p{
+    color: white;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.foodimg{
+    margin-left: 30px;
+}
+
+.foodimg .box{
+    padding: 85px 50px;
+    margin-top: 90px;
+    background: #d8b00f;
+}
+
+.foodimg .box .myimg img{
+    width: 450px;
+}
+
+.foodimg .box .myimg fig{
+    padding: 50px 0px 0px 0px;
+    margin-right: -110px;
+    vertical-align: middle;
+}
+
+.blog{
+    padding-top: 100px;
+}
+
+.blog .middleblog .ourblog{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0px;
+    padding-bottom: 50px;
+}
+
+.ourblog h2{
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.ourblog span{
+    letter-spacing: 1px;
+    line-height: 14px;
+}
+
+.secondblog {
+    width: 100%;
+}
+
+.secondblog .desc{
+    display: flex;
+    margin: 0px 76px;
+}
+
+.secondblog .desc .plate{
+    border: #a1a1a1 solid 1px;
+    color: #525050;
+    line-height: 28px;
+    width: 376px;
+    margin-right: 30px;
+    margin: 0px 14px;
+}
+
+.secondblog .desc .plate p{
+    padding: 0px 38px;
+    font-size: 20px;
+}
+
+.secondblog .desc .plate h3{
+    padding: 0px 38px;
+    font-size: 20px;
+}
+
+.secondblog .blog_img_block span{
+    font-size: 14px;
+    background: black;
+    color: white;
+    padding: 6px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.plate .blog_img_block{
+    box-shadow: #ddd 0px 3px 3px 0px
+}
+
+.secondblog .blog_img_block img{
+    width: 100%;
+}
+
+.client {
+    padding-top: 108px;
+    top: 68%;
+    left: 0px;
+    width: 100%;
+}
+
+.detail_client{
+    margin-top: 60px;
+}
+
+.client .cont .ourclient{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 200px;
+    line-height: 0px;
+}
+
+.client .cont .ourclient h2{
+    font-size: 45px;
+    letter-spacing: 1px;
+    padding: 0px;
+}
+
+.detail_client .client_info{
+    width: 45%;
+    background: #212020;
+    margin-left: 27%;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.detail_client .client_info .client_box{
+    padding: 40px 50px;
+}
+
+.detail_client .client_info .client_box h3{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.detail_client .client_info .client_box p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    padding-top: 95px;
+}
+
+.footer .request {
+    font-family: sans-serif;
+    background: #d8b00f;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+
+.footer .request h2{
+    margin-left: 19%;
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+.footer .request strong{
+    color: white;
+}
+
+.form{
+    margin-left: 235px;
+    margin-top: 36px;
+}
+
+.request .container_fluid .fluid .form .myform{
+    padding: 12px;
+    /* margin-left: 20%; */
+}
+
+.request .container_fluid .fluid .form .myform .input{
+    padding: 20px 18px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.request .container_fluid .fluid .form .myform .textarea{
+    padding: 35px 30px;
+    padding-right: 135px;
+    border: none;
+    font-size: 16px;
+}
+
+.request .container_fluid .fluid .form .myform .send_btn{
+    background: White;
+    font-size: 18px;
+    padding: 18px 60px;
+    border: none;
+}
+
+.request .container_fluid .fluid .form .myform .send_btn:hover{
+    color: white;
+    background: black; 
+    cursor: pointer;   
+}
+
+input:focus{
+    outline: 0;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+.request .container_fluid{
+    display: flex;
+    width: 100%;
+}
+
+.sideimg{
+    left: 0px;
+    top: -30px;
+}
+
+.sideimg .fruits img{
+    width: 580px;
+    padding: 15px;
+}
+
+.lastimg{
+    text-align: center;
+    padding: 15px;
+    border-bottom: #ddd solid 1px;
+}
+
+.nav{
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    padding: 13px 0px;
+    margin-bottom: 30px;
+}
+
+.nav .navbar a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.nav .navbar a:hover{
+    color: white;
+}
+
+.nav .navbar .active{
+    color: white;
+}
+
+.nav .navbar .active:hover{
+    color: black;
+}
+
+.nav .navbar .nav-bar{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0px 28px;
+}
+
+
+.newsletter{
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 80px;
+    /* margin-left: 30%; */
+}
+
+.news .newsletter h1{ 
+    font-size: 24px;
+    color: white;
+    margin-right: 18px;
+    margin-left: 25% ;
+    padding-bottom: 9px;
+}
+
+.lastform{
+    display: inline-flex;
+    display: inline-flex;
+    width: 38%;
+}
+
+.lastform .letter{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+}
+
+.lastimg .letter:focus{
+    outline: none;
+}
+
+.lastform .submit{
+    color: white;
+    background: black;
+    padding: 15px 55px;
+    border: none;
+}
+
+.lastform .submit:hover{
+    color: black;
+    background: #ddd; 
+    cursor: pointer;   
+}
+
+.lastform .submit:focus{
+    outline: none;
+}
+
+.copyright{
+    position: relative;
+    text-align: center;
+    background: #fff;
+}
+
+.copyright .temp{
+    padding: 10px ;
+}
+
+.temp p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.temp a{
+    text-decoration: none;
+    color: black;
+}
+
+.temp a:hover
+{
+    color: #d8b00f;
+}
